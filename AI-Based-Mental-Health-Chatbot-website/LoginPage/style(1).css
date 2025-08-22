@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    line-height: 1.5;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo Styles */
+.logo {
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.logo-text {
+    color: #5463b8;
+}
+
+.logo-highlight {
+    color: #59c99d;
+}
+
+.btn-primary {
+    background-color: #5463b8;
+    color: white;
+    padding: 8px 20px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 500;
+    display: inline-block;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    background-color: #4553a0;
+}
+
+.btn-full {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* Modal Styles */
+.login-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-color: transparent;
+}
+
+.modal-logo {
+    margin-bottom: 15px;
+}
+
+/* Main Content Styles */
+.login-card {
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    padding: 25px;
+    max-width: 450px;
+    width: 90%;
+    max-height: 95vh;
+}
+
+h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.subtitle {
+    color: #666;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+/* Form Styles */
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 500;
+    color: #444;
+    font-size: 14px;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 14px;
+    transition: border-color 0.3s;
+}
+
+input:focus, select:focus {
+    outline: none;
+    border-color: #5463b8;
+}
+
+.address-group {
+    margin-bottom: 15px;
+}
+
+.address-flex {
+    display: flex;
+    gap: 10px;
+}
+
+.address-item {
+    flex: 1;
+}
+
+.login-link {
+    text-align: center;
+    margin-top: 15px;
+    color: #666;
+    font-size: 14px;
+}
+
+.login-link a {
+    color: #5463b8;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.login-link a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .address-flex {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .login-card {
+        padding: 20px;
+    }
+}
