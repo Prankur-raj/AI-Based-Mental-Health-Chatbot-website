@@ -27,22 +27,13 @@ Tools: Git, GitHub, VS Code
 
 Future Scope: AI/ML personalization for chatbot responses
 
-📂 Project Structure
-/mental-health-chatbot
-│── /public
-│── /src
-│   │── /components
-│   │── /assets
-│   │── App.js
-│   │── index.js
-│── package.json
-│── README.md
+
 
 🚀 How to Run
 
 Clone the repository:
 
-git clone https://github.com/your-username/mental-health-chatbot.git
+git clone https://github.com/Prankur-raj/mental-health-chatbot.git
 
 
 Navigate to the project folder:
